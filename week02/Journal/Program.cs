@@ -25,6 +25,7 @@ class Program
                 string prompt = promptGenerator.GetRandomPrompt();
                 Console.WriteLine(prompt);
                 Console.Write("> ");
+                string response = Console.ReadLine();
                 string date = DateTime.Now.ToShortDateString();
 
                 Entry entry = new Entry(date, prompt, response);
