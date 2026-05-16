@@ -10,7 +10,7 @@ public class Entry
     {
         _date = date;
         _promptText = promptText;
-        _entryText = _entryText;
+        _entryText = entryText;
     }
 
     public void Display()
