@@ -4,9 +4,9 @@ public class Entry
 {
     public string _date;
     public string _promptText;
-    public int _entryText;
+    public string _entryText;
 
-    public Entry(string date, string promptText, string _entryText)
+    public Entry(string date, string promptText, string entryText)
     {
         _date = date;
         _promptText = promptText;
